@@ -9,9 +9,9 @@ if a vlan have les then x mac-addresse test case fails.
 easypy mac_job.py -html_logs -testbed_file ../testbed.yaml
 ```
 
-# Docker
+# Run from Dockerfile
 ```
-docker run -v c:/git/pyats_mac_count:/pyats/git -it ciscotestautomation/pyats:latest easypy run job /pyats/git/examples/basic/job/basic_example_job.py
+docker run -it $(docker build . -q)
 ```
 
 

@@ -1,0 +1,16 @@
+testbed:
+    name: humlan
+    tacacs:
+        username: admin
+    passwords:
+        tacacs: truhe8a8
+    
+devices:
+    fspipswi001:
+        os: ios
+        type: ios
+        connections:
+            ssh:
+                protocol: ssh
+                ip: 192.168.1.188
+                port: 22
